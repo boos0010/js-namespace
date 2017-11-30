@@ -2,10 +2,9 @@
 var BOOS0010 = {
     init: function () {
         let d = document.createElement("div");
-        document.getElementById("box");
-        d.className="boxes";
+        d.className="box";
         d.textContent="BOOS0010";
-        d.appendChild(d);
+        document.getElementById("boxes").appendChild(d);
         
         d.addEventListener("click",clicked);
         d.addEventListener("mouseover",hover);
